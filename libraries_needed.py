@@ -5,4 +5,5 @@ import firebase_admin
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
-# import sklearn # pip install scikit-learn
+from category_encoders.binary import BinaryEncoder
+import sklearn # pip install scikit-learn
